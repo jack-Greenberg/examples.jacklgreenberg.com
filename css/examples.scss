@@ -94,3 +94,18 @@
         }
     }
 }
+
+
+
+// Per example
+.results .js-cleave {
+    width: 100%;
+    font-size: 1.2em;
+    border: 0;
+    padding: .25em;
+    font-family: $sans;
+
+    &:focus-within {
+        outline: none;
+    }
+}

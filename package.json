@@ -16,6 +16,7 @@
     "babel-plugin-prismjs": "^1.0.2",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "cleave.js": "^1.4.7",
     "clipboard": "^2.0.4",
     "css-loader": "^2.1.0",
     "d3": "^5.9.1",
