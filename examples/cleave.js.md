@@ -7,8 +7,8 @@ desc: Input formatting
 import Cleave from 'cleave.js';
 
 var cleave = new Cleave('.js-cleave', {
-    phone: true,
-    phoneRegionCode: '{country}'
+    date: true,
+    datePattern: ['Y', 'm', 'd']
 });
 ```
 
