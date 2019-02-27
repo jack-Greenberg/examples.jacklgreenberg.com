@@ -15,6 +15,7 @@ desc: Syntax highlighting
 </body>
 ...
 ```
+
 <div class="results">
     <pre><code class="language-javascript">let foo = 'bar';</code></pre>
 </div>

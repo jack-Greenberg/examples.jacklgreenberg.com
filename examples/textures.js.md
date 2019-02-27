@@ -31,8 +31,8 @@ svg.append("circle")
 
 ```
 
-<div class="results" style="background-color: #343434;text-align: center;">
-    <div id="example"></div>
+<div class="results" style="align-items: center;">
+    <div id="example" style="background-color: #343434;text-align: center;"></div>
 </div>
 
 <div class="details">
