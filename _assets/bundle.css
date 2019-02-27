@@ -44,7 +44,17 @@ button {
     font-family: "Roboto", sans-serif; }
 
 .example {
-  padding: 1em 0; }
+  padding: 1em .5em; }
+  .example__title {
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    color: #000; }
+  .example__desc {
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    color: #aaa; }
 
 .code-block {
   font-size: .8em; }
