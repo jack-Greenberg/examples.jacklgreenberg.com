@@ -15,8 +15,9 @@ desc: Syntax highlighting
 </body>
 ...
 ```
-
-<pre><code class="language-javascript">let foo = 'bar';</code></pre>
+<div class="results">
+    <pre><code class="language-javascript">let foo = 'bar';</code></pre>
+</div>
 
 <div class="details">
     <p>Kinda hard to tell here as it's a bit meta. All the code blocks on this page are being highlighted with prism.js. The larger code block is essentially the source for the smaller one.</p>
