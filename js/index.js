@@ -1,5 +1,6 @@
 import * as d3 from "d3";
 import textures from 'textures';
+import Prism from 'prismjs';
 
 var svg = d3.select("#example")
   .append("svg")

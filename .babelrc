@@ -1,0 +1,11 @@
+{
+  "presets": ["@babel/env", "@babel/react"],
+  "plugins": [
+    ["prismjs", {
+        "languages": ["javascript", "css", "markup"],
+        "plugins": ["line-numbers"],
+        "theme": "tomorrow",
+        "css": true
+    }]
+  ]
+}
