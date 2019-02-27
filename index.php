@@ -7,7 +7,11 @@
 ?>
 
 <main>
-
+    <pre>
+        <code class="language-javascript">
+            let myVar = 2;
+        </code>
+    </pre>
 </main>
 
 <?php require('./foot.php') ?>
