@@ -1,0 +1,17 @@
+@import 'components';
+
+.header {
+    padding: 1rem;
+    text-align: center;
+
+    &__title {
+        font-size: 2em;
+        font-family: $sans;
+        padding-bottom: .2em;
+    }
+
+    &__desc {
+        font-size: .8em;
+        font-family: $sans;
+    }
+}

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro);
 /* RESET */
 html, body, h1, h2, h3, h4, h5, h6, p, q, ol, ul, li, dl, lh, dt, dd, pre, code, address, variable, form, fieldset, blockquote, cite, button {
   padding: 0;
@@ -30,4 +31,15 @@ button {
   border: 0;
   border-radius: 0;
   cursor: pointer; }
+
+.header {
+  padding: 1rem;
+  text-align: center; }
+  .header__title {
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: .2em; }
+  .header__desc {
+    font-size: .8em;
+    font-family: "Roboto", sans-serif; }
 
