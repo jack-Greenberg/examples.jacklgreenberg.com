@@ -1,0 +1,7 @@
+{
+    "require": {
+        "erusev/parsedown": "^1.7",
+        "catfan/medoo": "^1.6.1",
+        "mustache/mustache": "~2.5"
+    }
+}

@@ -1,0 +1,22 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700,700i,900');
+@import url("https://use.typekit.net/baa7iue.css");
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800,900');
+
+// Variables
+$bg-color: #fff;
+$header-bg-color: #f1f1f2;
+$theme: #000;
+
+$theme--darker: darken($theme, 20%);
+$theme--dark: darken($theme, 10%);
+$theme-base: $theme;
+$theme--light: lighten($theme, 10%);
+$theme--lighter: lighten($theme, 20%);
+
+$monospace: 'Inconsolata', Courier, monospace;
+$sans: 'Muli', sans-serif;;
+
+$filter: #bbb;
+$filter--selected: #000;
