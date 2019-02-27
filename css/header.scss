@@ -4,12 +4,17 @@
     padding: 1rem;
     text-align: center;
 
+    @media only screen and (min-width: 445px) {
+        font-size: 1.2em;
+    }
+    @media only screen and (min-width: 545px) {
+        font-size: 1.4em;
+    }
     &__title {
         font-size: 2em;
         font-family: $sans;
         padding-bottom: .2em;
     }
-
     &__desc {
         font-size: .8em;
         font-family: $sans;
