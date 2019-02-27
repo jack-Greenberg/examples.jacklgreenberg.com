@@ -2,10 +2,6 @@
 title: Cleave.js
 desc: Input formatting
 ---
-### index.html
-```html
-<input class="js-cleave" type="text" placeholder="YYYY/MM/DD" />
-```
 ### index.js
 ```javascript
 import Cleave from 'cleave.js';

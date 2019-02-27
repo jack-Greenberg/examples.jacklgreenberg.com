@@ -2,11 +2,6 @@
 title: Textures.js
 desc: SVG patterns
 ---
-### index.html
-```html
-<div id="example">
-</div>
-```
 ### index.js
 ```javascript
 import * as d3 from "d3";
