@@ -18,6 +18,10 @@
     };
 
     foreach($files as $file) {
+        if ($file === 'example.md') {
+            continue;
+        };
+
         $contents = file_get_contents(dirname(__FILE__).'/examples/'.$file);
 
         $rows = explode("\n", $contents);
