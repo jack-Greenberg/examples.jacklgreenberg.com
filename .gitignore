@@ -4,5 +4,5 @@ _images/
 _db-config.json
 .ftpconfig
 vendor/
-bundle.css
+_assets/bundle.css
 bundle.js

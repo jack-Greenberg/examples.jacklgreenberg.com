@@ -63,6 +63,10 @@ button {
     margin: 1em 0 .5em 1rem;
     font-family: "Roboto", sans-serif; }
 
+.results {
+  border: 1px solid #aaa;
+  padding: .5rem; }
+
 .details {
   margin-top: 2em; }
   .details p {
