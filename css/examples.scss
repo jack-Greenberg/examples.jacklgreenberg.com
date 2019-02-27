@@ -17,6 +17,32 @@
     }
 }
 
-.code-block {
+.content {
     font-size: .8em;
+
+    h3 {
+        font-size: 1em;
+        margin: 1em 0 .5em 1rem;
+        font-family: $sans;
+    }
+}
+
+.details {
+    margin-top: 2em;
+
+    p {
+        font-family: $sans;
+    }
+    ul {
+        list-style: disc outside none;
+        margin: .5rem 0 0 1.5rem;
+    }
+    li {
+        padding: .25em 0;
+    }
+    a {
+        color: $blue;
+        text-decoration: none;
+        font-family: $sans;
+    }
 }

@@ -56,6 +56,24 @@ button {
     display: inline-block;
     color: #aaa; }
 
-.code-block {
+.content {
   font-size: .8em; }
+  .content h3 {
+    font-size: 1em;
+    margin: 1em 0 .5em 1rem;
+    font-family: "Roboto", sans-serif; }
+
+.details {
+  margin-top: 2em; }
+  .details p {
+    font-family: "Roboto", sans-serif; }
+  .details ul {
+    list-style: disc outside none;
+    margin: .5rem 0 0 1.5rem; }
+  .details li {
+    padding: .25em 0; }
+  .details a {
+    color: #15c;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif; }
 

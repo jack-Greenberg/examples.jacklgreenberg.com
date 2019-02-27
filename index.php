@@ -25,6 +25,7 @@
 
         $example_data = array();
 
+        // to get the data and the code
         foreach ($rows as $row) {
             array_shift($rows);
 
@@ -35,11 +36,16 @@
             array_push($example_data, explode(': ', $row));
         };
 
+
+
+        // to get the details
+        // var_dump($rows);
+
         $title = $example_data[0][1];
         $desc = $example_data[1][1];
-
         $content = $Parsedown->text(implode("\n", $rows));
-        echo $ms_t->render('example', array('title' => $title, 'desc' => $desc, 'code' => $content));
+
+        echo $ms_t->render('example', array('title' => $title, 'desc' => $desc, 'content' => $content));
     };
 ?>
 
