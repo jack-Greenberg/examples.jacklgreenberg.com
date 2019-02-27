@@ -72,7 +72,7 @@ svg.append("circle")
 
 *Rendered:*
 
-![textures.js example screenshot](https://raw.githubusercontent.com/jack-Greenberg/test.jacklgreenberg.com/master/images/textures.png)
+![textures.js example screenshot](https://raw.githubusercontent.com/jack-Greenberg/examples.jacklgreenberg.com/master/images/textures.png)
 
 ## To-Do
 - [ ] iframe instead of divs
