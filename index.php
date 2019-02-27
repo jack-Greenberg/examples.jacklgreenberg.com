@@ -39,10 +39,7 @@
         $desc = $example_data[1][1];
 
         $content = $Parsedown->text(implode("\n", $rows));
-        $content_rows = explode("\n", $content);
-        $content_rows[0] = substr_replace($content_rows[0], " class=\"line-numbers\"", 4, 0);
-        $line_number_content = implode("\n", $content_rows);
-        echo $ms_t->render('example', array('title' => $title, 'desc' => $desc, 'code' => $line_number_content));
+        echo $ms_t->render('example', array('title' => $title, 'desc' => $desc, 'code' => $content));
     };
 ?>
 
