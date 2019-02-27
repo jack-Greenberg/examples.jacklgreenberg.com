@@ -19,9 +19,8 @@ desc: Syntax highlighting
 <pre><code class="language-javascript">let foo = 'bar';</code></pre>
 
 <div class="details">
-    <p>You might need some more details, so here are some links:</p>
+    <p>Kinda hard to tell here as it's a bit meta. All the code blocks on this page are being highlighted with prism.js. The larger code block is essentially the source for the smaller one.</p>
     <ul>
-        <li><a href="https://jacklgreenberg.com">jacklgreenberg.com</a></li>
-        <li><a href="https://yaybrigade.com">A tutorial</a></li>
+        <li><a href="https://prismjs.com">prismjs.com</a></li>
     </ul>
 </div>
