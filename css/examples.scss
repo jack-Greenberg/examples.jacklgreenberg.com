@@ -1,7 +1,20 @@
 @import 'components';
 
 .example {
-    padding: 1em 0;
+    padding: 1em .5em;
+
+    &__title {
+        font-size: 1.5em;
+        font-family: $sans;
+        display: inline-block;
+        color: $black;
+    }
+    &__desc {
+        font-size: 1em;
+        font-family: $sans;
+        display: inline-block;
+        color: $light-gray;
+    }
 }
 
 .code-block {
