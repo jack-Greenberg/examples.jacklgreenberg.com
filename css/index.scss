@@ -1,3 +1,9 @@
 @import './reset.scss';
 @import './header.scss';
 @import './examples.scss';
+
+main {
+    section:nth-child(odd) > div {
+        background-color: darken(#fff, 5%);
+    }
+}
